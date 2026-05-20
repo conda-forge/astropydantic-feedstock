@@ -1,5 +1,5 @@
 {% set name = "astropydantic" %}
-{% set version = "0.0.6" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/astropydantic-{{ version }}.tar.gz
-  sha256: c4afcc4083211944693838923729342fe1c59e39468feb27829c5ded39fca443
+  sha256: 273351fd61605d917ca32c1931540f449152fde8509e37d14b381f47ec90bdae
 
 build:
   noarch: python
